@@ -6,7 +6,7 @@ class Person < Nameable
   attr_reader :id
   attr_accessor :name, :age, :rentals
 
-  def initialize(age, name = 'Unknown', parent_permission: true)
+  def initialize(age, name, parent_permission)
     super()
     @id = Random.rand(1..200)
     @name = name
@@ -20,7 +20,7 @@ class Person < Nameable
   end
 
   def correct_name
-    @correctable_name = name
+    @name = name
   end
 
   def add_rentals(date, book_info)
@@ -33,10 +33,3 @@ class Person < Nameable
     @age >= 18
   end
 end
-
-p person = Person.new(22, 'maximilianus')
-p person.correct_name
-p capitalized_person = Capitalize.new(person)
-p capitalized_person.correct_name
-p capitalized_trimmed = Trimmer.new(capitalized_person)
-p capitalized_trimmed.correct_name
