@@ -101,7 +101,7 @@ ruby main.rb
 - Twitter: [@iAmWaris97](https://twitter.com/iAmWaris97)
 - LinkedIn: [Waris Haleem](https://www.linkedin.com/in/waris-haleem/)
 
-**👨‍💻 Mulugeta M. **
+**👨‍💻 Mulugeta M.**
 
 - GitHub: [@belmeetmule](https://github.com/belmeetmule)
 - Twitter: [@belmeetmule](https://twitter.com/belmeetmule)
