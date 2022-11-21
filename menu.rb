@@ -14,7 +14,7 @@ class Menu
       end
     end
   end
-  
+
   def menu
     puts 'Choose your option by entering a number:'
     puts '1 - List all Books.'
@@ -25,7 +25,7 @@ class Menu
     puts '6 - List all rentals for a given person id.'
     puts '7 - Exit'
   end
-  
+
   def user_input
     input = gets.chomp.to_i
     while input > 7 || input < 1
