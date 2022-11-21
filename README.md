@@ -36,7 +36,7 @@
 
 # 📖 School Library <a name="about-project"></a>
 
-> In this project I will creat a Library console app for a school using the Ruby OOP concept.
+> In this project we refactored a Library console app for a school using the Ruby OOP concept and SOLID design principles.
 
 **School Library** is a console app:
 
@@ -93,13 +93,19 @@ ruby main.rb
 
 <!-- AUTHORS -->
 
-## 👤 Author <a name="authors"></a>
+## 👤 Authors <a name="authors"></a>
 
 **👨‍💻 Waris Haleem**
 
 - GitHub: [@iAmWaris97](https://github.com/iAmWaris97)
 - Twitter: [@iAmWaris97](https://twitter.com/iAmWaris97)
 - LinkedIn: [Waris Haleem](https://www.linkedin.com/in/waris-haleem/)
+
+**👨‍💻 Mulugeta M.**
+
+- GitHub: [@belmeetmule](https://github.com/belmeetmule)
+- Twitter: [@belmeetmule](https://twitter.com/belmeetmule)
+- LinkedIn: [belmeetmule](https://linkedin.com/in/belmeetmule)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
