@@ -1,0 +1,1 @@
+[{"name":"Waris","age":25,"permission":{"parent_permission":{"parent_permission":false}},"type":"Student"},{"name":"Mulugeta","age":30,"permission":{"parent_permission":{"parent_permission":false}},"type":"Student"},{"name":"Microverse","age":0,"specialization":"Programming teacher","type":"Teacher"}]
