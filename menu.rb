@@ -1,5 +1,8 @@
+require_relative './loading'
+
 class Menu
   def display_menu(app) # rubocop:disable Metrics/CyclomaticComplexity
+    load_data(app)
     loop do
       menu
       input = user_input
@@ -10,7 +13,9 @@ class Menu
       when 4 then app.create_book
       when 5 then app.create_rental
       when 6 then app.list_rentals
-      when 7 then break
+      when 7
+        store_data(app)
+        break
       end
     end
   end
