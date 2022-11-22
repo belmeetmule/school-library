@@ -1,3 +1,4 @@
+require_relative './persist'
 require_relative './loading'
 
 class Menu
